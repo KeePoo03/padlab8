@@ -1,0 +1,7 @@
+# .gitignore
+# окружение и кэш
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# артефакты обучения не храним в Git
+models/*.joblib
